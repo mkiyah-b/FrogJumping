@@ -26,7 +26,7 @@ class cactus {
     this.x = 800
     this.y = 245
     this.xV = 2.2
-    this.grass = loadImage('grass.png');
+    this.grass = loadImage('grass.PNG');
   }
   
   display() {
@@ -223,4 +223,5 @@ function message() {
       highScore = currentScore;
     }
   }
+
 }
